@@ -1,0 +1,44 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .counter-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid black; */
+    
+  }
+  .heading{
+    color: rgb(51, 51, 118);
+    font-size: 30px;
+  }
+  
+  .count {
+    font-size: 55px;
+    font-weight: bolder;
+  }
+  .button{
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 8px 15px;
+    margin-left:5px ;
+    border-radius: 7px;
+    cursor: pointer;
+  
+  }
+  .button:active{
+    color: white;
+    background-color: rgb(113, 113, 172);
+  }
+  
